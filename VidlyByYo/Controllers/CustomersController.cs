@@ -7,7 +7,7 @@ using VidlyByYo.Models;
 
 namespace VidlyByYo.Controllers
 {
-    public class CustomerController : Controller
+    public class CustomersController : Controller
     {
         
         public ActionResult Index()
