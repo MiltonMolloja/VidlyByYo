@@ -9,8 +9,10 @@ namespace VidlyByYo.Models
     public class Genre
     {
         public byte Id { get; set; }
+
         [Required]
         [StringLength(255)]
+        [Display(Name ="Nombre")]
         public string Name { get; set; }    
     }
 }
