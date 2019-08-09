@@ -191,9 +191,34 @@
     <Compile Include="Migrations\201908082027434_PopulateMembershipTypes1.Designer.cs">
       <DependentUpon>201908082027434_PopulateMembershipTypes1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201908091335084_AddNameMembershipType.cs" />
+    <Compile Include="Migrations\201908091335084_AddNameMembershipType.Designer.cs">
+      <DependentUpon>201908091335084_AddNameMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908091347099_AddBirthDateCustomer.cs" />
+    <Compile Include="Migrations\201908091347099_AddBirthDateCustomer.Designer.cs">
+      <DependentUpon>201908091347099_AddBirthDateCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908091418163_ModMovieAddGenre.cs" />
+    <Compile Include="Migrations\201908091418163_ModMovieAddGenre.Designer.cs">
+      <DependentUpon>201908091418163_ModMovieAddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908091422495_ModMovieAddGenre1.cs" />
+    <Compile Include="Migrations\201908091422495_ModMovieAddGenre1.Designer.cs">
+      <DependentUpon>201908091422495_ModMovieAddGenre1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908091426427_ModMovieAddGenre2.cs" />
+    <Compile Include="Migrations\201908091426427_ModMovieAddGenre2.Designer.cs">
+      <DependentUpon>201908091426427_ModMovieAddGenre2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908091428238_AddGenreCuston.cs" />
+    <Compile Include="Migrations\201908091428238_AddGenreCuston.Designer.cs">
+      <DependentUpon>201908091428238_AddGenreCuston.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -291,6 +316,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201908082027434_PopulateMembershipTypes1.resx">
       <DependentUpon>201908082027434_PopulateMembershipTypes1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908091335084_AddNameMembershipType.resx">
+      <DependentUpon>201908091335084_AddNameMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908091347099_AddBirthDateCustomer.resx">
+      <DependentUpon>201908091347099_AddBirthDateCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908091418163_ModMovieAddGenre.resx">
+      <DependentUpon>201908091418163_ModMovieAddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908091422495_ModMovieAddGenre1.resx">
+      <DependentUpon>201908091422495_ModMovieAddGenre1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908091426427_ModMovieAddGenre2.resx">
+      <DependentUpon>201908091426427_ModMovieAddGenre2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908091428238_AddGenreCuston.resx">
+      <DependentUpon>201908091428238_AddGenreCuston.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
